@@ -243,7 +243,7 @@ Factory Method encapsula a criação de objetos em uma classe dedicada, devolven
 
 ---
 
-## 6. Como executar a aplicação
+## 5. Como executar a aplicação
 
 Pré-requisitos:
 
@@ -275,7 +275,7 @@ Desenvolvido por: Vinícius Antonio Minas (@viniciusminas)
 
 ---
 
-## 7. Como executar os testes automatizados
+## 6. Como executar os testes automatizados
 
 Na pasta `coleta-seletiva/app`, executar:
 
@@ -292,7 +292,7 @@ Os testes cobrem:
 
 ---
 
-## 8. Decisões de design
+## 7. Decisões de design
 
 - Centralização de parâmetros em `Config` (Singleton): preços por kg e meta mensal são lidos de um único ponto, facilitando ajustes e testes.
 - Uso combinado de Factory Method e Strategy: o cálculo de pagamento é parametrizado por Strategy, e a factory encapsula a forma de construir a estratégia correta com base no material.
@@ -303,7 +303,7 @@ Os testes cobrem:
 
 ---
 
-## 9. Limitações e próximos passos
+## 8. Limitações e próximos passos
 
 Limitações conhecidas:
 
@@ -322,6 +322,6 @@ Possíveis extensões futuras:
 
 ---
 
-## 10. Autor
+## 9. Autor
 
 - Vinícius Antonio Minas (@viniciusminas)
