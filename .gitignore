@@ -1,0 +1,14 @@
+# Ambientes virtuais Python
+.ven/
+.venv/
+
+# Configurações de IDE (PyCharm/IntelliJ/etc.)
+.idea/
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Cache do pytest
+.pytest_cache/
